@@ -76,3 +76,34 @@ button{
 button:hover {
     cursor: pointer;
   }
+.fa-eye {
+    position: relative;
+    left: 56vw;
+    bottom: 5vh;
+    color: white;
+}
+.fa-eye.move {
+    visibility: hidden;
+}
+.fa-eye-slash {
+    position: absolute;
+    left: 56vw;
+    bottom: 63.5vh;
+    color: white;
+    visibility: hidden;
+}
+.fa-eye-slash.move {
+    visibility: visible;
+}
+.fa-eye:hover {
+    cursor: pointer;
+}
+.fa-eye.move:hover {
+    cursor: pointer;
+}
+.fa-eye-slash:hover {
+    cursor: pointer;
+}
+.fa-eye-slash.move:hover {
+    cursor: pointer;
+}
